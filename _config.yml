@@ -33,10 +33,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-author:
-  name: Quique
-  twitter: cartrotech
-
 markdown: kramdown
 
 # Exclude from processing.

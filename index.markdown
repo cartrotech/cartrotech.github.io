@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Bienvenido a CartroTech
+title: Inicio
 ---
 
 <img src="/assets/images/cartrotech_logo.png" alt="Logo CartroTech" width="200">
