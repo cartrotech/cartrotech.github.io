@@ -6,8 +6,6 @@ layout: home
 title: Inicio
 ---
 
-<img src="/assets/images/cartrotech_logo.png" alt="Logo CartroTech" width="200">
-
 ¡Hola! Soy Quique y este es el espacio donde comparto mis proyectos de prototipado en cartón con electrónica. Aquí encontrarás:
 
 - Tutoriales con Arduino
