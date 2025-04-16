@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Arduino
+title: Arduino Bàsics
 permalink: /arduino-basic-categorias/
 ---
 
@@ -23,5 +23,5 @@ Aquesta pàgina recopila tots els tutorials i projectes bàsics de Arduino. Aqu�
     {% endfor %}
   </ul>
 {% else %}
-  <p>No hay posts disponibles con estas categorías.</p>
+  <p>No hi ha posts disponibles amb aquestes categories.</p>
 {% endif %} 
