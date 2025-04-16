@@ -1,15 +1,33 @@
 ---
 layout: page
-title: Qué es
+title: Què es
 permalink: /about/
 ---
 
-# ¿Qué es Cartrotech?
+# 🧠🔧 Cartrotech
 
-Cartrotech es cartón, sí. Pero también es código 💻, cables 🔌 y creatividad sin miedo 💥. Es la prueba viva de que no necesitas una impresora 3D para construir algo que funcione. Aquí, el cartón se convierte en estructura📦, los shields de Arduino en cerebro🧠, y la imaginación... en pura ingeniería.
+A Cartrotech som apassionats per la creativitat, el cartró i l’electrònica. Fusionem tecnologia i materials reciclats per construir prototips sorprenents i educatius que encanten tant a nens com a adults.
 
-Somos una marca que mezcla lo artesanal con lo electrónico, lo simple con lo ingenioso, lo barato con lo brillante💡. Prototipamos ideas locas, prácticas o simplemente curiosas, con una filosofía maker DIY: *hazlo tú mismo, pero hazlo bien🛠️*.
+🎯 **Missió:** Acompanyar escoles, famílies i educadors a descobrir el món maker amb projectes que combinen **Arduino**, **cartó**, **enginy** i molt d’humor!
 
-En Cartrotech creemos que el cartón no es basura: es el punto de partida de cualquier gran invento🚀. Creamos robots🤖, máquinas, instalaciones interactivas y dispositivos educativos📚, todo desde cero, con nuestras manos✋, y una pizca de locura tecnológica💡.
+👧👦 **Per a qui?**
 
-Si buscas innovación con espíritu callejero, pasión por el prototipado y un enfoque accesible para todos los públicos (¡incluyendo el tuyo!), estás en el sitio correcto🔥.
+- Nens i nenes amb ganes de crear i experimentar
+- Professors que volen portar la tecnologia a l’aula de forma lúdica
+- Makers que estimen el cartró tant com nosaltres
+
+🔍 **Què fem?**
+
+- Prototips amb **Arduino** i **sensors**
+- Maquetes interactives i **robots DIY**
+- Tallers i activitats per a escoles i famílies
+- Recursos educatius per fomentar el pensament crític i creatiu
+
+🌱 **Creiem en...**
+
+L’aprenentatge fent
+- El disseny sostenible i la reutilització
+- La tecnologia oberta i accessible
+
+Benvinguts a Cartrotech, el laboratori creatiu on el cartró cobra vida amb circuits, idees i molta imaginació! 📦⚡✨
+

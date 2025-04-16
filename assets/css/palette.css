@@ -1,0 +1,8 @@
+:root {
+    --primary-color: #ff9d00;       /* Taronja Cartrotech */
+    --accent-color: #a347e1;        /* Lila tecnològic */
+    --bg-color: #2d263a;            /* Fons gris fosc */
+    --text-color: #ffffff;          /* Text blanc */
+    --card-bg: #3a334b;             /* Targetes sobre fons fosc */
+    --link-color: #ff9d00;
+  }
