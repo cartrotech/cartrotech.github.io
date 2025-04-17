@@ -2,7 +2,9 @@
   {%- for path in include.paths -%}
   {%- assign hyperpage = site.pages | where: "path", path | first -%}
   {%- if hyperpage.title %}
+  {%- unless hyperpage.path contains '/' %}
   <a class="nav-item" href="{{ hyperpage.url | relative_url }}">{{ hyperpage.title | escape }}</a>
+  {%- endunless -%}
   {%- endif -%}
   {%- endfor %}
 </div>

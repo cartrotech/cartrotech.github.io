@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Arduino Bàsics
-permalink: /arduino-basic-categorias/
+title: Arduino
+permalink: /pages/arduino/arduino/
 ---
 
-Aquesta pàgina recopila tots els tutorials i projectes bàsics de Arduino. Aquí trobaràs recursos per a començar el teu viatge en el món de l'electrònica i la programació.
+Aquesta pàgina recopila tots els tutorials i projectes de Arduino. Aquí trobaràs recursos per a començar el teu viatge en el món de l'electrònica i la programació.
 
-{% assign posts = site.posts | where_exp: "post", "post.categories contains 'arduino' and post.categories contains 'basic'" %}
+{% assign posts = site.posts | where_exp: "post", "post.categories contains 'arduino'" %}
 
 {% if posts.size > 0 %}
   <ul class="post-list">
