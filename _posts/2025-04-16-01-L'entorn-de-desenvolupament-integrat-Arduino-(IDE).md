@@ -3,6 +3,7 @@ layout: post
 title: "L'entorn de desenvolupament integrat Arduino (IDE)"
 date: 2025-04-16 23:12:43 +0200
 categories: arduino basic
+excerpt: "L'entorn de desenvolupament integrat Arduino (IDE) és el software que ens permet programar les plaques arduino i cal conèixer-lo per tal de treure tot el profit de la seua potència i característiques."
 ---
 
 # L'entorn de desenvolupament integrat Arduino (IDE)

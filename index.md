@@ -13,9 +13,9 @@ Transformant idees en projectes tangibles, combinant la simplicitat del cartró 
 ## Què trobaràs aquí?
 
 - [Tutorials d'Arduino](/arduino-tutorials/) - Guies pas a pas per als teus primers projectes
-- [Dissenyys en Cartró](/dissenyys) - Plantilles i patrons per a les teves creacions
-- [Projectes STEAM](/projectes) - Activitats educatives que integren ciència, tecnologia i art
-- [Recursos](/recursos) - Com la nostra [guia de Markdown en català](/markdown-catala)
+- [Dissenyys en Cartró](#) - Plantilles i patrons per a les teves creacions
+- [Projectes STEAM](#) - Activitats educatives que integren ciència, tecnologia i art
+- [Recursos](#) - Com la nostra [guia de Markdown en català](/markdown-catala)
 
 ## Per què cartró?
 

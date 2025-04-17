@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Què es
+title: Qui som
 permalink: /about/
 ---
 
