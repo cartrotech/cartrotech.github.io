@@ -4,7 +4,9 @@ title: Arduino
 permalink: /pages/arduino/arduino/
 ---
 
-Aquesta pàgina recopila tots els tutorials i projectes de Arduino. Aquí trobaràs recursos per a començar el teu viatge en el món de l'electrònica i la programació.
+Esta página recoge todos los tutoriales y proyectos de Arduino. Aquí encontrarás recursos para empezar tu viaje en el mundo de la electrónica y la programación.
+
+---
 
 {% assign posts = site.posts | where_exp: "post", "post.categories contains 'arduino'" %}
 

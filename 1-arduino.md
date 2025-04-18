@@ -6,19 +6,23 @@ permalink: /arduino-tutorials/
 
 # Arduino
 
-Explora els nostres articles organitzats per categories. Troba contingut relacionat amb els teus interessos i necessitats.
+Explora nuestros artículos organizados por categorías. Encuentra contenido relacionado con tus intereses y necesidades.
 
-- [Tots els articles d'Arduino](/pages/arduino/arduino)
-- [Arduino bàsic](/pages/arduino/arduino-basic)
-- [Sensors i Actuadors](#)
-- [Projectes Electrònics](#)
+- [Todos los artículos de Arduino](/pages/arduino/arduino)
+- [Arduino básico](/pages/arduino/arduino-basic)
+- [Sensores y Actuadores](#)
+- [Proyectos Electrónicos](#)
 
-## Darrers Articles
+---
+
+## Últimos artículos
 
 {% for post in site.posts limit:5 %}
 - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%d/%m/%Y" }}
 {% endfor %}
 
-## Subscriu-te
+--- 
 
-No et perdis cap article! Segueix-nos a les xarxes socials per estar al dia de les novetats. 
+## Suscríbete
+
+No te pierdas ningún artículo! Síguenos en las redes sociales para estar al día de las novedades. 

@@ -3,22 +3,29 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Inici
+title: Inicio
 ---
 
-# Creant amb Cartró i Electrònica
+## Bienvenido a CartroTech
 
-Transformant idees en projectes tangibles, combinant la simplicitat del cartró amb el poder de l'electrònica. Un espai on la creativitat i la tecnologia es troben per crear experiències educatives úniques.
+**<center>Cartón + Electrónica = Creatividad sin límites</center>**  
 
-## Què trobaràs aquí?
+En CartroTech transformamos ideas en prototipos reales, combinando la sencillez del cartón con el potencial de la electrónica educativa. Es nuestro rincón para explorar, aprender y crear experiencias que inspiran.
 
-- [Tutorials d'Arduino](/arduino-tutorials/) - Guies pas a pas per als teus primers projectes
-- [Dissenyys en Cartró](#) - Plantilles i patrons per a les teves creacions
-- [Projectes STEAM](#) - Activitats educatives que integren ciència, tecnologia i art
-- [Recursos](#) - Com la nostra [guia de Markdown en català](/markdown-catala)
+### ¿Qué encontrarás en CartroTech?
 
-## Per què cartró?
+- 🛠️ [Tutoriales de Arduino](/arduino-tutorials/) - Guías paso a paso para comenzar en el mundo de la electrónica creativa.
+- 📐 [Diseños en Cartón](#) - Plantillas descargables y patrones para montar tus propios proyectos.
+- 🚀 [Proyectos STEAM](#) - Actividades educativas que integran ciencia, tecnología, arte y mucho ingenio.
+- 📚 [Recursos útiles](/resources/) - Incluyendo nuestra guía de Markdown y mucho más.
 
-El cartró és un material accessible, sostenible i versàtil que ens permet donar vida a les nostres idees de forma ràpida i econòmica. En combinar-lo amb electrònica, creem experiències interactives que fan l'aprenentatge més tangible i divertit.
+### ¿Por qué trabajamos con cartón?
 
-Uneix-te a aquesta comunitat de creadors i comparteix els teus projectes!
+Porque es accesible, ecológico y versátil. El cartón permite prototipar rápido, construir con libertad y dar forma a ideas con bajo coste. Y cuando lo combinamos con sensores, motores y placas Arduino… la magia sucede.
+
+### Forma parte de la comunidad CartroTech
+
+Comparte tus creaciones, aprende de otros makers y descubre nuevas formas de enseñar y construir.
+¡Súmate a la revolución del cartón inteligente!
+
+---
