@@ -17,7 +17,7 @@ gem "webrick", "~> 1.9.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-paginate-v2"
+  gem "jekyll-paginate"
   gem "jekyll-seo-tag"
 end
 

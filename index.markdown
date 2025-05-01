@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Inicio
+paginate: 5
 ---
 
 # Bienvenido a CartroTech
@@ -27,3 +28,4 @@ Porque es accesible, ecológico y versátil. El cartón permite prototipar rápi
 Comparte tus creaciones, aprende de otros makers y descubre nuevas formas de enseñar y construir.
 ¡Súmate a la revolución del cartón inteligente!
 
+---

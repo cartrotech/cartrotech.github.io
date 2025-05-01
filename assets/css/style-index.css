@@ -1,0 +1,39 @@
+:root {
+    --accent-orange: #FF6B00;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.articulo {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.fecha {
+    color: #666;
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.resumen {
+    margin: 15px 0;
+}
+
+.leer-mas {
+    display: inline-block;
+    color: var(--accent-orange);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.leer-mas:hover {
+    text-decoration: underline;
+} 

@@ -31,24 +31,17 @@ github_username:  cartrotech
 #theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-seo-tag
+
+paginate: 5
+paginate_path: "/page:num"
+
 markdown: kramdown
 author:
   name: Q. Serrano
   email: cartrotech@gmail.com
 
-# Jekyll Paginate V2 settings
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: '/blog/page/:num/'
-  title: ':title - Página :num'
-  sort_field: 'date'
-  sort_reverse: true
-  trail:
-    before: 2
-    after: 2
 
 # Exclude from processing.
 # The following items will not be processed, by default.
