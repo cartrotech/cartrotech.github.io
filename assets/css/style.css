@@ -1,0 +1,153 @@
+:root {
+  /* Tema claro */
+  /* Colores de fondo */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #ECE5DD;
+  
+  /* Colores de texto */
+  --text-primary: #2D2D2D;
+  --text-secondary: #595959;
+  
+  /* Colores de acento */
+  --accent-orange: #FFA733;
+  --accent-purple: #9B30FF;
+  --accent-green: #3a7460;
+}
+
+[data-theme="dark"] {
+  /* Tema oscuro */
+  /* Colores de fondo */
+  --bg-primary: #121212;
+  --bg-secondary: #292016;    /* Un tono oscuro que evoca al cartón envejecido */
+  
+  /* Colores de texto */
+  --text-primary: #F5EBDD;
+  --text-secondary: #D1BFA3;
+  
+  /* Los acentos se mantienen para consistencia de marca */
+}
+
+/* Aseguramos transiciones suaves entre temas */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    margin: 2rem auto;
+    max-width: 800px;
+    line-height: 1.6;
+    padding: 0 1rem;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+code {
+    background-color: #1e1e1e;
+    color: #FFA733;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+  }
+  
+pre {
+    background-color: #1e1e1e;
+    color: #F5EBDD;
+    padding: 1em;
+    overflow-x: auto;
+    border-radius: 6px;
+    }
+
+a {
+    color: var(--accent-purple);
+}
+
+a:hover {
+    color: var(--accent-orange);
+}
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--accent-green);
+  color: var(--text-secondary);
+}
+
+.header-site-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-site-title-logo {
+    margin-right: 1rem;
+}
+
+.footer-content-left, .footer-content-center, .footer-content-right {
+    flex: 1;
+    margin-bottom: 2rem;
+}
+  
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: var(--accent-purple);
+}
+  
+nav a:hover {
+    text-decoration: underline;
+    color: var(--accent-orange);
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    color: var(--accent-green);
+}
+
+h1 a {
+    text-decoration: none;
+    color: var(--accent-purple);
+}
+
+h1 a:hover {
+    text-decoration: underline;
+    color: var(--accent-orange);
+}
+  
+ul {
+    list-style: disc;
+    padding-left: 2rem;
+}
+  
+li {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+  
+.pagination {
+    text-align: center;
+    margin-top: 2rem;
+}
+  
+.pagination a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: var(--accent-purple);
+}
+
+.post {
+    /*background-color: var(--bg-secondary);*/
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.post-footer {
+    border-top: 0px solid var(--accent-green);
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
