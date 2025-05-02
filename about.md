@@ -19,10 +19,10 @@ Acercar la tecnología a todos los públicos, romper la barrera entre lo técnic
 
 ## ¿Qué encontrarás en CartroTech?
 
-- 🛠️ [Tutoriales de Arduino](#) - Guías paso a paso para comenzar en el mundo de la electrónica creativa.
-- 📐 [Diseños en Cartón](#) - Plantillas descargables y patrones para montar tus propios proyectos.
-- 🚀 [Proyectos STEAM](#) - Actividades educativas que integran ciencia, tecnología, arte y mucho ingenio.
-- 📚 [Recursos útiles](/resources/) - Incluyendo nuestra guía de Markdown y mucho más.
+- 🛠️ **Tutoriales de Arduino** - Guías paso a paso para comenzar en el mundo de la electrónica creativa.
+- 📐 **Diseños en Cartón** - Plantillas descargables y patrones para montar tus propios proyectos.
+- 🚀 **Proyectos STEAM** - Actividades educativas que integran ciencia, tecnología, arte y mucho ingenio.
+- 📚 **Recursos útiles** - Incluyendo nuestra guía de Markdown y mucho más.
 
 ## ¿Por qué trabajamos con cartón?
 

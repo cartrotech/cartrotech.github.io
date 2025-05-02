@@ -1,0 +1,17 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--accent-purple);
+  }
+  
+  .social-icons a {
+    color: inherit;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: var(--accent-orange);
+    transform: scale(1.2);
+  }
