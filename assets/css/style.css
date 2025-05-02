@@ -22,7 +22,7 @@
   
   /* Colores de texto */
   --text-primary: #F5EBDD;
-  --text-secondary: #D1BFA3;
+  --text-secondary: #b9a380;
   
   /* Los acentos se mantienen para consistencia de marca */
 }
@@ -44,14 +44,14 @@ body {
 
 code {
     background-color: #1e1e1e;
-    color: #FFA733;
+    color: var(--text-secondary);
     padding: 0.2em 0.4em;
     border-radius: 4px;
   }
   
 pre {
     background-color: #1e1e1e;
-    color: #F5EBDD;
+    color: var(--text-secondary);
     padding: 1em;
     overflow-x: auto;
     border-radius: 6px;
@@ -105,7 +105,7 @@ nav a:hover {
 }
   
 h1, h2, h3, h4, h5, h6 {
-    color: var(--accent-green);
+    color: var(--text-secondary);
 }
 
 h1 a {
@@ -139,6 +139,10 @@ li {
     color: var(--accent-purple);
 }
 
+.pagination a:hover {
+    color: var(--accent-orange);
+}
+
 .post {
     /*background-color: var(--bg-secondary);*/
     padding: 1rem;
@@ -151,3 +155,10 @@ li {
     padding-top: 1rem;
 }
 
+hr {
+    border: none;
+    height: 2px;
+    background-color: var(--accent-green);
+    margin: 20px 0;
+    width: 100%;
+}
