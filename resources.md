@@ -37,6 +37,6 @@ Una colección de herramientas y materiales útiles para ayudarte en tus proyect
 
 ## Contribuir
 
-Si tienes recursos interesantes para compartir, no dudes en [contactarnos](/contacte) o proponerlos a través de nuestro [repositorio de GitHub](https://github.com/cartrotech).
+Si tienes recursos interesantes para compartir, no dudes en [contactarnos](mailto:{{ site.author.email }}) o proponerlos a través de nuestro [repositorio de GitHub](https://github.com/cartrotech).
 
 *Actualizado por última vez: {{ site.time | date: "%d/%m/%Y" }}*
