@@ -1,10 +1,9 @@
 ---
 layout: default
-title: 13 - Módulos Transmisor y Receptor IR
+title: "13 - Módulos Transmisor y Receptor IR"
 date: 2025-05-03 10:00:00 +0200
-categories: arduino sensores
-excerpt: En este experimento, aprenderemos a utilizar el módulo transmisor
-de infrarrojos y el receptor de infrarrojos.
+categories: arduino sensores actuadores
+excerpt: "En este experimento, aprenderemos a utilizar el módulo transmisor de infrarrojos y el receptor de infrarrojos."
 ---
 
 ## Finalidad
