@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "12 - El módulo de pulsador"
-date: 2025-05-03 12:00:00 +0200
+date: 2025-04-30 12:00:00 +0200
 categories: arduino actuadores
 excerpt: "Aprender a usar un módulo de pulsador para controlar un LED."
 ---
