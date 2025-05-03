@@ -1,4 +1,11 @@
-# 13 - Módulos Transmisor y Receptor IR
+---
+layout: default
+title: 13 - Módulos Transmisor y Receptor IR
+date: 2025-05-03 10:00:00 +0200
+categories: arduino actuadores
+excerpt: En este experimento, aprenderemos a utilizar el módulo transmisor
+de infrarrojos y el receptor de infrarrojos.
+---
 
 ## Finalidad
 
@@ -11,12 +18,12 @@ en su teledetección sin hilos y es muy conveniente utilizarlos.
 
 ## Material
 
-|                               Imagen                               | Descripción                                                           |
-| :----------------------------------------------------------------: | :------------------------------------------------------------------- |
-| <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">  | Arduino Uno o compatible con S4A y con el firmware para S4A cargado. |
-| <img src="./../imatges/mat/mat_cables.png" width="50" height="50"> | Cables de conexión                                                   |
-| <img src="./../imatges/mat/mat_KY-022.png" width="50" height="50"> | Módulo receptor IR KY022                                              |
-| <img src="./../imatges/mat/mat_KY-005.png" width="50" height="50"> | Módulo emisor IR KY005                                               |
+| Imagen | Descripción |
+| :---: | :---: |
+| ![Imagen](/assets/images/material/mat_unor3.png) | Arduino Uno o compatible |
+| ![Imagen](/assets/images/material/mat_cables.png) | Cables de conexión |
+| ![Imagen](/assets/images/material/mat_KY022.png) | Módulo receptor IR KY022 |
+| ![Imagen](/assets/images/material/mat_KY005.jpeg) | Módulo emisor IR KY005 |
 
 ## Descripción del material
 
@@ -29,7 +36,7 @@ Sensor de infrarrojos tipo 1838 para uso con señales IR de 38 KHz.
 - Alcance del receptor: 18 m (típico)
 - Ángulo de recepción: 90 °
 
-![Receptor IR](../imatges/ard/ard_13_01.png)
+![Receptor IR](/assets/images/ard/ard_13_01.png)
 
 Los detectores IR son pequeños microchips con fotorresistencia que se ajustan para
 escuchar la luz infrarroja. Casi siempre se utilizan para la detección
@@ -67,7 +74,7 @@ Este módulo es igual que un LED, pero el color de la luz no se puede
 ver al ojo humano, sino que puedes ver la luz a través de la cámara
 del teléfono.
 
-![Emisor IR](../imatges/ard/ard_13_02.png)
+![Emisor IR](/assets/images/ard/ard_13_02.png)
 
 ## Montaje
 
@@ -78,19 +85,26 @@ Los cables de alimentación (5V y GND) tienen posiciones fijas en la placa,
 los cables de datos los conectaremos en la entrada/salida correspondiente
 según indicamos en el código
 
-![Montaje receptor](../imatges/ard/ard_13_03.png)
-![Montaje emisor](../imatges/ard/ard_13_05.png)
+![Montaje receptor](/assets/images/ard/ard_13_03.png)
+![Montaje emisor](/assets/images/ard/ard_13_05.png)
 
 ---
 
-![Esquema eléctrico receptor](../imatges/ard/ard_13_04.png)
-![Esquema eléctrico emisor](../imatges/ard/ard_13_06.png)
+![Esquema eléctrico receptor](/assets/images/ard/ard_13_04.png)
+![Esquema eléctrico emisor](/assets/images/ard/ard_13_06.png)
 
 ## Programación
 
-Código: ARD_13_IRe (subir a la placa del emisor)
-
 ```Arduino
+/*
+ * CARTROTECH  (https://cartrotech.github.io)
+ * 
+ * Projecto nº: ARD_13_IRe (subir a la placa del emisor)
+ * Descripcion: En este experimento, aprenderemos a utilizar el módulo transmisor de infrarrojos y el receptor de infrarrojos.
+ * 
+ * Fecha: 2025-05-03
+ */
+
 
 #include <IRremote.h>
 
@@ -113,9 +127,16 @@ void loop()
 
 ```
 
-Código: ARD_13_IRr (subir a la placa del receptor)
-
 ```Arduino
+
+/*
+ * CARTROTECH  (https://cartrotech.github.io)
+ * 
+ * Projecto nº: ARD_13_IRr (subir a la placa del receptor)
+ * Descripcion: En este experimento, aprenderemos a utilizar el módulo transmisor de infrarrojos y el receptor de infrarrojos.
+ * 
+ * Fecha: 2025-05-03
+ */
 
 #include <IRremote.h>
 #define RECV_PIN 11 //Pin de recepción de la señal IR
@@ -156,7 +177,4 @@ void loop()
 ## Conceptos importantes
 
 - Cómo funcionan el transmisor y el receptor de infrarrojos.
-
-## Ver también
-
-- [README](../README.md)
+- Cómo se puede utilizar el módulo transmisor y el receptor de infrarrojos.
