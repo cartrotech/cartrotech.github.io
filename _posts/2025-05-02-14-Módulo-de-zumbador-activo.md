@@ -1,4 +1,10 @@
-# 14 - Módulo de zumbador activo
+---
+layout: post
+title: "14 - Módulo de zumbador activo"
+date: 2025-05-02 12:00:00 +0200
+categories: arduino acutadores
+excerpt: "Aprender a utilizar el zumbador. Incluir avisos sonoros en nuestros circuitos."
+---
 
 ## Finalidad
 
@@ -8,10 +14,10 @@
 ## Material
 
 |                               Imagen                               | Descripción                |
-| :----------------------------------------------------------------: | :------------------------ |
-| <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">  | Arduino Uno o equivalente. |
-| <img src="./../imatges/mat/mat_cables.png" width="50" height="50"> | Cables de conexión        |
-| <img src="./../imatges/mat/mat_KY-012.png" width="50" height="50"> | Un zumbador activo KY012  |
+| ---------------------------------------------------------------- | ------------------------ |
+| ![Arduino](/assets/images/material/mat_unor3.png)  | Arduino Uno o equivalente. |
+| ![Cables](/assets/images/material/mat_cables.png) | Cables de conexión        |
+| ![Zumbador](/assets/images/material/mat_KY012.png) | Un zumbador activo KY012  |
 
 ## Descripción del material
 
@@ -45,16 +51,21 @@ Conecte la señal (S) al pin 8 del Arduino y el negativo (-) a GND.
 Tenga en cuenta que algunos módulos están mal etiquetados. Pruebe
 de invertir los cables si no escucha ningún sonido mientras ejecuta el código.
 
-![Montaje](./../imatges/ard/ard_14_01.png)
-![Esquema eléctrico](./../imatges/ard/ard_14_02.png)
+![Montaje](/assets/images/ard/ard_14_01.png)
+![Esquema eléctrico](/assets/images/ard/ard_14_02.png)
 
 ## Programación
 
-Puede descargar el código
-[aquí](https://drive.google.com/file/d/13Mxdfbo0VG3rP-PNCun1Ep957xYQfdPR/view?usp=share_link).
-
 ```Arduino
-Código: ARD_14.ino
+
+/*
+ * CARTROTECH  (https://cartrotech.github.io)
+ * 
+ * Proyecto nº: ARD_14
+ * Descripcion: Aprender a utilizar el zumbador. Incluir avisos sonoros en nuestros circuitos.
+ * 
+ * Fecha: 2025-05-03
+ */
 
 int buzzerPin = 8;
 
@@ -75,7 +86,3 @@ void loop()
 ## Conceptos importantes
 
 - La importancia de recibir avisos fuera del alcance de la visión
-
-## Ver también
-
-- [README](../README.md)
