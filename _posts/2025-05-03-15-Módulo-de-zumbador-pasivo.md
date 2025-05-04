@@ -1,4 +1,10 @@
-# 15 - Módulo de zumbador pasivo
+---
+layout: post
+title: 15 - Módulo de zumbador pasivo
+date: 2025-05-03 10:00:00 +0200
+categories: arduino actuadores
+excerpt: "Aprender a utilizar el zumbador. Incluir avisos sonoros en nuestros circuitos."
+---
 
 ## Finalidad
 
@@ -7,11 +13,11 @@
 
 ## Material
 
-|                               Imagen                               | Descripción                 |
-| :----------------------------------------------------------------: | :------------------------- |
-| <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">  | Arduino Uno o equivalente.  |
-| <img src="./../imatges/mat/mat_cables.png" width="50" height="50"> | Cables de conexión         |
-| <img src="./../imatges/mat/mat_KY-006.png" width="50" height="50"> | Un zumbador pasivo KY-006 |
+| Imagen | Descripción  |
+| ------ | ------------ |
+| ![Arduino Uno](/assets/images/material/mat_unor3.png) | Arduino Uno o equivalente.  |
+| ![Cables](/assets/images/material/mat_cables.png)     | Cables de conexión          |
+| ![Zumbador](/assets/images/material/mat_KY006.png)    | Un zumbador pasivo KY-006   |
 
 ## Descripción
 
@@ -45,7 +51,7 @@ aprovechan este efecto pero solo generan un clic ya que los materiales
 cambian de forma pero no vuelven a su estado natural hasta que se les
 quita el voltaje.
 
-![Efecto piezoeléctrico](../imatges/ard/ard_15_01.png)
+![Efecto piezoeléctrico](/assets/images/ard/ard_15_01.png)
 
 Para que se pueda emitir un sonido continuo, las placas necesitan vibrar
 constantemente. Para esto se necesita un oscilador que hace que los
@@ -57,20 +63,29 @@ la placa Arduino. Recordemos que el sonido es audible desde 20 Hz hasta 20
 kHz, por tanto, el número de veces que la salida debe cambiar (llamado
 frecuencia) estará entre 20 y 20000 veces por segundo.
 
-![Montaje del zumbador](../imatges/ard/ard_15_02.png)
-![Esquema eléctrico](../imatges/ard/ard_15_03.png)
+![Montaje del zumbador](/assets/images/ard/ard_15_02.png)
+![Esquema eléctrico](/assets/images/ard/ard_15_03.png)
 
 El montaje lo haremos directamente con cables tipo Dupont M-F, conectando
 la salida 8 con la S (señal) del zumbador y por otra parte el pin GND
 de la placa con el pin « -- « del módulo.
 
-![Montaje final](../imatges/ard/ard_15_04.png)
+![Montaje final](/assets/images/ard/ard_15_04.png)
 
 ## Programación
 
 Código: ARD_15
 
 ```Arduino
+
+/*
+CARTROTECH  (https://cartrotech.github.io)
+
+Proyecto nº: ARD_15
+Descripcion: Aprender a utilizar el zumbador. Incluir avisos sonoros en nuestros circuitos.
+
+Fecha: 2025-05-04
+ */
 
 int buzzer = 8; // establece el pin digital de control del zumbador
 
@@ -105,7 +120,3 @@ delay(100);
 
 - Efectos de los activadores acústicos
 - Entender qué es la frecuencia
-
-## Ver también
-
-- [README](../README.md)
