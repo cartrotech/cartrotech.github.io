@@ -1,4 +1,10 @@
-# 17 - Módulo LED RGB SMD y módulo LED RGB
+---
+layout: post
+title: "17 - Módulo LED RGB SMD y módulo LED RGB"
+date: 2021-10-19 10:00:00 +0200
+categories: arduino actuadores
+excerpt: "En este experimento, aprenderemos a utilizar el módulo LED SMD RGB y el módulo LED RGB."
+---
 
 ## Objetivo
 
@@ -9,10 +15,10 @@ módulo LED RGB.
 
 |                               Imagen                               | Descripción                 |
 | :----------------------------------------------------------------: | :------------------------- |
-| <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">  | Arduino Uno o equivalente.  |
-| <img src="./../imatges/mat/mat_cables.png" width="50" height="50"> | Cables de conexión         |
-| <img src="./../imatges/mat/mat_KY-009.png" width="50" height="50"> | Módulo LED RGB SMD (KY-009) |
-| <img src="./../imatges/mat/mat_KY-016.png" width="50" height="50"> | Módulo LED RGB (KY-016)     |
+| ![Arduino Uno](/assets/images/material/mat_unor3.png) | Arduino Uno o equivalente.  |
+| ![Cables](/assets/images/material/mat_cables.png) | Cables de conexión         |
+| ![Módulo LED RGB SMD](/assets/images/material/mat_KY009.png) | Módulo LED RGB SMD (KY-009) |
+| ![Módulo LED RGB](/assets/images/material/mat_KY016.png) | Módulo LED RGB (KY-016)     |
 
 ## Introducción
 
@@ -29,7 +35,7 @@ verde y azul). Al ajustar el voltaje de entrada de los pines R (rojo), G
 
 ### Módulo LED RGB SMD (KY-009)
 
-![Módulo led rgb smd](../imatges/ard/ard_17_01.jpeg)
+![Módulo led rgb smd](/assets/images/ard/ard_17_01.jpeg)
 
 #### Descripción
 
@@ -40,7 +46,7 @@ mediante modulación por control de pulsos (PWM).
 #### Especificaciones
 
 El módulo LED SMD a todo color RGB consta de un LED SMD 5050, que
-**se utiliza** **con resistencias limitadoras** para evitar que se
+**se utiliza con resistencias limitadoras** para evitar que se
 queme. Compatible con plataformas electrónicas populares como Arduino,
 Raspberry Pi y ESP8266.
 
@@ -54,7 +60,7 @@ Raspberry Pi y ESP8266.
 
 ### Módulo LED RGB (KY-016)
 
-![Módulo led rgb](../imatges/ard/ard_17_02.jpeg)
+![Módulo led rgb](/assets/images/ard/ard_17_02.jpeg)
 
 #### Descripción
 
@@ -76,8 +82,8 @@ en cada pin de color dará como resultado diferentes colores.
 
 ### Módulo LED RGB SMD
 
-![Montaje led rgb](../imatges/ard/ard_17_03.png)
-![Esquema eléctrico led rgb](../imatges/ard/ard_17_04.png)
+![Montaje led rgb](/assets/images/ard/ard_17_03.png)
+![Esquema eléctrico led rgb](/assets/images/ard/ard_17_04.png)
 
 **Importante:** este módulo debe funcionar con resistencias para limitar
 la intensidad. Si no tienen los valores indicados pueden utilizar tres
@@ -88,8 +94,8 @@ verde. O bien el sensor está mal indicado, o bien tiene un error de fabricació
 
 ### Módulo LED RGB
 
-![Montaje led rgb smd](../imatges/ard/ard_17_05.png)
-![Esquema eléctrico led rgb smd](../imatges/ard/ard_17_06.png)
+![Montaje led rgb smd](/assets/images/ard/ard_17_05.png)
+![Esquema eléctrico led rgb smd](/assets/images/ard/ard_17_06.png)
 
 Este montaje no necesita resistencias. Tampoco se necesita una protoboard
 porque podemos conectar el sensor directamente con los cables.
@@ -105,6 +111,8 @@ Código: ARD_17a
 
 ```Arduino
 /*
+* CartroTech (https://cartrotech.github.io)
+*
 * Proyecto nº: ARD017
 * Fecha: 19.10.2021
 * Descripción: Ejemplo de colores con led rgb
@@ -182,6 +190,8 @@ Código: ARD_17b
 
 ```Arduino
 /*
+* CartroTech (https://cartrotech.github.io)
+*
 * Proyecto nº: ARD017b
 * Fecha: 19.10.2021
 * Descripción: Colores aleatorios con led rgb
@@ -220,7 +230,3 @@ void loop()
 
 - Presentación de los módulos LED RGB y LED RGB SMD
 - Utilidad y funcionamiento de los pines del módulo
-
-## Ver también
-
-- [README](../README.md)
