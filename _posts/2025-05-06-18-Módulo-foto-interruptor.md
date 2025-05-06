@@ -1,4 +1,10 @@
-# 18 - Módulo foto-interruptor
+---
+layout: post
+title: "18 - Módulo foto-interruptor"
+date: 2025-05-06 10:00:00 +0200
+categories: arduino actuadores
+excerpt: "En este proyecto vamos a utilizar un módulo foto-interruptor para detectar la presencia de un objeto en la zona de trabajo."
+---
 
 ## Objetivos
 
@@ -8,10 +14,10 @@
 
 |                               Imagen                               | Descripción                      |
 | :----------------------------------------------------------------: | :------------------------------ |
-| <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">  | Arduino Uno o equivalente.       |
-| <img src="./../imatges/mat/mat_cables.png" width="50" height="50"> | Cables de conexión              |
-| <img src="./../imatges/mat/mat_KY-010.png" width="50" height="50"> | Módulo foto-interruptor (KY-010) |
-| <img src="./../imatges/mat/mat_KY-012.png" width="50" height="50"> | Módulo zumbador activo (KY-012)  |
+| ![Arduino](/assets/images/material/mat_unor3.png)  | Arduino Uno o equivalente.       |
+| ![Cables](/assets/images/material/mat_cables.png) | Cables de conexión              |
+| ![Foto-interruptor](/assets/images/material/mat_KY010.png) | Módulo foto-interruptor (KY-010) |
+| ![Zumbador](/assets/images/material/mat_KY012.png) | Módulo zumbador activo (KY-012)  |
 
 ## Descripción
 
@@ -20,7 +26,7 @@
 El módulo de foto-interruptor para Arduino activará una señal cuando se
 bloquee la luz entre el espacio del sensor.
 
-![Funcionamiento foto-interruptor](../imatges/ard/ard_18_01.jpeg)
+![Funcionamiento foto-interruptor](/assets/images/ard/ard_18_01.jpeg)
 
 ### Especificaciones
 
@@ -44,12 +50,12 @@ respectivamente. Conecte la señal (S) al pin 3 del Arduino.
 | + (en medio)    | + 5V    |
 | S (derecha)    | Pin 3   |
 
-![Diagrama de montaje foto-interruptor](../imatges/ard/ard_18_02.png)
+![Diagrama de montaje foto-interruptor](/assets/images/ard/ard_18_02.png)
 
 Como podéis ver utilizamos un zumbador activo para emitir un sonido cuando el
 módulo se active.
 
-![Esquema eléctrico foto-interruptor](../imatges/ard/ard_18_03.png)
+![Esquema eléctrico foto-interruptor](/assets/images/ard/ard_18_03.png)
 
 ## Programación
 
@@ -57,6 +63,8 @@ módulo se active.
 
 ```Arduino
 /*
+* CartroTech (https://cartrotech.github.io)
+*
 * Proyecto nº: ARD018
 * Fecha: 20.10.2021
 * Descripción: Funcionamiento del módulo foto-interruptor
@@ -87,7 +95,3 @@ void loop()
   }
 }
 ```
-
-## Ver también
-
-- [README](../README.md)
