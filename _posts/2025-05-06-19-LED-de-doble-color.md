@@ -1,4 +1,10 @@
-# 19 - LED de doble color
+---
+layout: post
+title: "19 - LED de doble color"
+date: 2025-05-06 19:00:00 +0200
+categories: arduino actuadores
+excerpt: "Conoce el funcionamiento del LED de doble color y cómo usarlo en tus proyectos Arduino."
+---
 
 ## Objetivo
 
@@ -8,11 +14,11 @@
 
 |                                  Imagen                                  | Descripción                    |
 | :----------------------------------------------------------------------: | :---------------------------- |
-|    <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">     | Arduino Uno o equivalente.     |
-|  <img src="./../imatges/mat/mat_protoboard.png" width="50" height="50">  | Protoboard                    |
-|    <img src="./../imatges/mat/mat_cables.png" width="50" height="50">    | Cables de conexión            |
-|    <img src="./../imatges/mat/mat_KY-029.png" width="50" height="50">    | Módulo LED dos colores (KY-029) |
-| <img src="./../imatges/mat/mat_resistencia.jpeg" width="50" height="50"> | 2 Resistencias 220 o 330 Ω    |
+|    ![Arduino Uno](/assets/images/material/mat_unor3.png)     | Arduino Uno o equivalente.     |
+|  ![Protoboard](/assets/images/material/mat_protoboard.png)  | Protoboard                    |
+|    ![Cables](/assets/images/material/mat_cables.png)    | Cables de conexión            |
+|    ![Módulo LED doble color](/assets/images/material/mat_KY029.png)    | Módulo LED dos colores (KY-029) |
+| ![Resistencias](/assets/images/material/mat_resistencia.jpeg) | 2 Resistencias 220 o 330 Ω    |
 
 ## Descripción
 
@@ -47,7 +53,7 @@ del Arduino y evitar que se queme el LED.
 | R     | 330Ω resistor Pin 11 |
 | Y     | 330Ω resistor Pin 10 |
 
-![Montaje módulo LED doble color](../imatges/ard/ard_19_01.png)
+![Montaje módulo LED doble color](/assets/images/ard/ard_19_01.png)
 
 ## Programación
 
@@ -56,6 +62,8 @@ verde.
 
 ```Arduino
 /*
+* CartroTech (https://cartrotech.github.io)
+*
 * Proyecto nº: ARD019
 * Fecha: 24.10.2021
 * Descripción: Funcionamiento del LED de doble color
@@ -94,7 +102,3 @@ void loop()
   delay(1000);
 }
 ```
-
-## Ver también
-
-- [README](../README.md)
