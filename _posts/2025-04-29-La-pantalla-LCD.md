@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "11 - La pantalla LCD"
+title: "La pantalla LCD"
 date: 2025-04-29 12:30:00 +0200
 categories: arduino display
 excerpt: "Aprender a usar una pantalla LCD de 16x02 para mostrar información en el monitor serial y en la propia pantalla."

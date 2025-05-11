@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "02 - Nuestro primer circuito"
+title: "Nuestro primer circuito"
 date: 2025-04-22 23:30:00 +0200
 categories: arduino basic
 excerpt: "El objetivo de esta sesión es fijar algunas ideas básicas sobre electrónica, montar un circuito con LED y resistencia y comprender el esquema eléctrico, aprender cómo utilizar la protoboard e instalar el programa Blinking LED"

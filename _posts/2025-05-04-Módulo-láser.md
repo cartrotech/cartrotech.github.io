@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "16 - Módulo láser"
+title: "Módulo láser"
 date: 2025-05-04 10:00:00 +0200
 categories: arduino actuadores
 excerpt: "En este experimento, aprenderemos a utilizar el módulo láser."

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "17 - Módulo LED RGB SMD y módulo LED RGB"
+title: "Módulo LED RGB SMD y módulo LED RGB"
 date: 2021-10-19 10:00:00 +0200
 categories: arduino actuadores
 excerpt: "En este experimento, aprenderemos a utilizar el módulo LED SMD RGB y el módulo LED RGB."

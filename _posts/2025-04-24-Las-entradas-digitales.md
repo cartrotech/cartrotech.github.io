@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "03 - Las entradas digitales"
+title: "Las entradas digitales"
 date: 2025-04-24 16:00:00 +0200
 categories: arduino basic
 excerpt: "La finalidad de esta lección es conocer las entradas digitales y aprovecharemos para leer un pulsador. Presentaremos los valores booleanos y un operador: Negación."

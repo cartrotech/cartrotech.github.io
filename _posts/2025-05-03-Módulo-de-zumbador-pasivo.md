@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 15 - Módulo de zumbador pasivo
+title: "Módulo de zumbador pasivo"
 date: 2025-05-03 10:00:00 +0200
 categories: arduino actuadores
 excerpt: "Aprender a utilizar el zumbador. Incluir avisos sonoros en nuestros circuitos."

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "04 - Montaje pull-up y pull-down"
+title: "Montaje pull-up y pull-down"
 date: 2025-04-24 23:00:00 +0200
 categories: arduino basic
 excerpt: "Pull-up y pull-down es un montaje para asegurar un valor alto o bajo (HIGH o LOW) a la salida del circuito. Se utiliza necesariamente con interruptores y contactos para no dejar nunca una entrada sin conectar a ningún sitio."

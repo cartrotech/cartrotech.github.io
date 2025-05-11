@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "06 - Las salidas analógicas"
+title: "Las salidas analógicas"
 date: 2025-04-26 08:30:00 +0200
 categories: arduino basic
 excerpt: "Comprender las diferencias entre analógico y digital. Conocer las salidas cuasi analógicas de Arduino y qué es la modulación por pulsos (PWM)."

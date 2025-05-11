@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "07 - Comunicación con el exterior"
+title: "Comunicación con el exterior"
 date: 2025-04-26 09:30:00 +0200
 categories: arduino basic
 excerpt: "Comprender la comunicación vía puerto serie, para lo cual hay que utilizar la librería Serial. Veremos también operaciones con enteros, los tipos String y char. Entenderemos cómo operar con Strings y la instrucción while."

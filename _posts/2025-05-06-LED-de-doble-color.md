@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "19 - LED de doble color"
+title: "LED de doble color"
 date: 2025-05-06 19:00:00 +0200
 categories: arduino actuadores
 excerpt: "Conoce el funcionamiento del LED de doble color y cómo usarlo en tus proyectos Arduino."

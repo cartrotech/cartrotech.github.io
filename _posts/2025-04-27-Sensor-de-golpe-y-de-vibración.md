@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "09 - Sensor de golpe y de vibración"
+title: "Sensor de golpe y de vibración"
 date: 2025-04-27 12:30:00 +0200
 categories: arduino sensores
 excerpt: "Presentar el sensor de golpe y de vibración (KY-002 y KY-031), además de continuar trabajando las entradas digitales para saber detectar señales muy breves."

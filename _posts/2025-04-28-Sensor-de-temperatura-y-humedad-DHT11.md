@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10 - Sensor de temperatura y humedad DHT11"
+title: "Sensor de temperatura y humedad DHT11"
 date: 2025-04-28 12:30:00 +0200
 categories: arduino sensores
 excerpt: "Presentar el sensor de temperatura y humedad DHT11, que nos permitirá medir la temperatura y la humedad del aire."

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "01 - Nuestro primer programa"
+title: "Nuestro primer programa"
 date: 2025-04-20 20:30:00 +0200
 categories: arduino basic
 excerpt: "La idea de esta lección es fijar algunas ideas básicas sobre programación. Tenemos que comprender la estructura de un programa arduino (sketch), debemos definir las estructuras de blogs y conocer las primeras instrucciones."

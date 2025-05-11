@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "18 - Módulo foto-interruptor"
+title: "Módulo foto-interruptor"
 date: 2025-05-06 10:00:00 +0200
 categories: arduino actuadores
 excerpt: "En este proyecto vamos a utilizar un módulo foto-interruptor para detectar la presencia de un objeto en la zona de trabajo."

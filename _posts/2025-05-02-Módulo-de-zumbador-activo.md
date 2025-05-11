@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "14 - Módulo de zumbador activo"
+title: "Módulo de zumbador activo"
 date: 2025-05-02 12:00:00 +0200
 categories: arduino acutadores
 excerpt: "Aprender a utilizar el zumbador. Incluir avisos sonoros en nuestros circuitos."

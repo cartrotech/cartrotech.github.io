@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "05 - Las entradas analógicas"
+title: "Las entradas analógicas"
 date: 2025-04-25 23:30:00 +0200
 categories: arduino basic
 excerpt: "En esta lección aprenderemos sobre las entradas analógicas de Arduino, con especial énfasis en el uso de potenciómetros. Veremos cómo funciona la conversión analógica-digital, cómo leer valores analógicos con Arduino y entenderemos las limitaciones de velocidad y resolución de los convertidores ADC."
