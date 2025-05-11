@@ -1,19 +1,23 @@
-# 21 - Módulos de detección de sonido
+---
+layout: post
+title: "Módulos de detección de sonido"
+date: 2025-05-08 19:00:00 +0200
+categories: arduino sensores
+excerpt: "Conoce los módulos de detección de sonido y cómo usarlos en tus proyectos Arduino."
+---
 
-## Visión general
+## Objetivo
 
-En este experimento, aprenderemos a utilizar el sensor de voz de alta
-sensibilidad. Hay dos tipos: el módulo de micrófono grande y el módulo de
-micrófono pequeño.
+Conocer los módulos de detección de sonido y cómo usarlos en tus proyectos Arduino.
 
 ## Material
 
 |                               Imagen                               | Descripción                      |
 | :----------------------------------------------------------------: | :------------------------------ |
-| <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">  | Arduino Uno o equivalente.       |
-| <img src="./../imatges/mat/mat_cables.png" width="50" height="50"> | Cables de conexión              |
-| <img src="./../imatges/mat/mat_KY-037.png" width="50" height="50"> | Módulo micrófono grande (KY-037)    |
-| <img src="./../imatges/mat/mat_KY-038.png" width="50" height="50"> | Módulo micrófono pequeño (KY-038) |
+| ![Arduino Uno](/assets/images/material/mat_unor3.png) | Arduino Uno o equivalente.       |
+| ![Cables](/assets/images/material/mat_cables.png) | Cables de conexión              |
+| ![Módulo micrófono grande](/assets/images/material/mat_KY037.png) | Módulo micrófono grande (KY-037)    |
+| ![Módulo micrófono pequeño](/assets/images/material/mat_KY038.png) | Módulo micrófono pequeño (KY-038) |
 
 ## Módulo de micrófono grande
 
@@ -26,7 +30,7 @@ emitir un nivel alto o bajo. Un pin analógico (A0), puede dar en tiempo real la
 
 Un potenciómetro permite ajustar el nivel.
 
-![Módulo micrófono KY-037](../imatges/ard/ard_21_01.png)
+![Módulo micrófono KY-037](/assets/images/ard/ard_21_01.png)
 
 ## Módulo de micrófono pequeño
 
@@ -38,7 +42,7 @@ un nivel preestablecido. Un potenciómetro permite ajustar el nivel.
 Excepto por el tamaño más pequeño de la cápsula y su menor
 sensibilidad, el módulo es idéntico al módulo "Micrófono grande"
 
-![Módulo micrófono KY-038](../imatges/ard/ard_21_02.png)
+![Módulo micrófono KY-038](/assets/images/ard/ard_21_02.png)
 
 ## Sensor de sonido
 
@@ -55,7 +59,7 @@ Cuando el sensor detecta un sonido, proporciona un voltaje de señal
 de salida que se envía a un microcontrolador que realiza el
 procesamiento necesario.
 
-![Sensor de sonido](../imatges/ard/ard_21_03.png)
+![Sensor de sonido](/assets/images/ard/ard_21_03.png)
 
 Estos micrófonos se utilizan ampliamente en circuitos electrónicos para
 detectar sonidos menores o vibraciones del aire que a su vez se
@@ -63,7 +67,7 @@ convierten en señales eléctricas para su uso posterior. Las dos
 patas, como se muestra en la imagen de arriba, se utilizan para realizar
 la conexión eléctrica con el circuito.
 
-![Cubierta del sensor de sonido](../imatges/ard/ard_21_04.png)
+![Cubierta del sensor de sonido](/assets/images/ard/ard_21_04.png)
 
 Un cuerpo de metal conductor sólido encapsula las diferentes partes del
 micrófono. La cara superior se cubre con un material poroso con la ayuda
@@ -75,13 +79,15 @@ el diafragma a través del orificio que se muestra en la imagen de arriba.
 Se muestra el cableado para el módulo de micrófono grande, pero es idéntico si
 utilizamos el módulo de micrófono pequeño.
 
-![Conexionado módulo de micrófono](../imatges/ard/ard_21_05.png)
+![Conexionado módulo de micrófono](/assets/images/ard/ard_21_05.png)
 
 ## Programación
 
 ```Arduino
 /*
-* Proyecto nº: **ARD021**
+* CartroTech (https://cartrotech.github.io)
+*
+* Proyecto nº: ARD021
 * Fecha: 06.11.2021
 * Descripción: Módulo detección sonido
 * Nota:
@@ -117,7 +123,3 @@ void loop()
   delay(50); // Pausa para no sobrecargar la interfaz serie
 }
 ```
-
-## Ver también
-
-- [README](../README.md)
