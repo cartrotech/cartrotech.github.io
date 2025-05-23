@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sensors
+permalink: /categorias/sensores/
 ---
 
 <div class="blog-container">

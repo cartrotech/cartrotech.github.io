@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Bàsic
+title: Display
+permalink: /categorias/display/
 ---
 
 <div class="blog-container">
-    <h1>Articles de Arduino bàsic</h1>
+    <h1>Articles de Display de Arduino</h1>
 
     {% for post in site.posts %}
-        {% if post.categories contains "basic" or post.categories contains "bàsic" %}
+        {% if post.categories contains "display" or post.categories contains "displays" %}
         <article class="articulo">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <div class="fecha">
@@ -20,4 +21,4 @@ title: Bàsic
         </article>
         {% endif %}
     {% endfor %}
-</div>
+</div> 
