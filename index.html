@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Inicio
+title: Inici
 paginate: 5
 ---
 
 <h1>Blog de CartroTech</h1>
-<p>Todos los artículos publicados en el blog de CartroTech</p>
+<p>Tots els articles publicats al blog de CartroTech</p>
 <div class="home">
   <section class="posts-list">
       {% for post in paginator.posts %}
@@ -22,7 +22,7 @@ paginate: 5
           <div class="post-excerpt">
               {{ post.excerpt }}
           </div>
-          <a href="{{ post.url | relative_url }}" class="read-more">Leer más →</a>
+          <a href="{{ post.url | relative_url }}" class="read-more">Llegir més →</a>
       </article>
 
       {% endfor %}
@@ -35,11 +35,11 @@ paginate: 5
       {% endif %}
 
       <span class="page_number">
-          Página {{ paginator.page }} de {{ paginator.total_pages }}
+          Pàgina {{ paginator.page }} de {{ paginator.total_pages }}
       </span>
 
       {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}" class="next">Siguiente →</a>
+      <a href="{{ paginator.next_page_path | relative_url }}" class="next">Següent →</a>
       {% endif %}
   </div>
   {% endif %}

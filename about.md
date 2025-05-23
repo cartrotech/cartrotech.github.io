@@ -1,34 +1,34 @@
 ---
 layout: default
-title: Quienes somos
+title: Qui som
 permalink: /about/
 ---
 
 ## 🚀 Cartrotech
 
-**Cartrotech** es una mezcla explosiva de creatividad, cartón y electrónica 🎨📦⚡.  
-Creamos prototipos con Arduino y materiales reciclados que sorprenden, enseñan y hacen que el aprendizaje sea una auténtica aventura 🧠🤖.
+**Cartrotech** és una barreja explosiva de creativitat, cartró i electrònica 🎨📦⚡.  
+Creem prototips amb Arduino i materials reciclats que sorprenen, ensenyen i fan que l'aprenentatge sigui una autèntica aventura 🧠🤖.
 
-💥 **Diseñamos robots con cartón**, experimentamos con sensores, creamos dispositivos interactivos y lo compartimos todo para que cualquiera pueda replicarlo, mejorarlo o simplemente flipar.
+💥 **Dissenyem robots amb cartró**, experimentem amb sensors, creem dispositius interactius i ho compartim tot perquè qualsevol pugui replicar-lo, millorar-lo o simplement flipar.
 
-No usamos plástico caro ni carcasas: aquí el cartón es el rey 👑.  
-Porque lo importante no es el material, ¡es la idea! 💡
+No utilitzem plàstic car ni carcasses: aquí el cartró és el rei 👑.  
+Perquè l'important no és el material, ¡és la idea! 💡
 
-🌍 ¿Nuestra misión?  
-Acercar la tecnología a todos los públicos, romper la barrera entre lo técnico y lo creativo, y demostrar que se puede aprender electrónica con tijeras, cinta y ganas de pasarlo bien ✂️⚙️✨
+🌍 ¿La nostra missió?  
+Apropar la tecnologia a tots els públics, trencar la barrera entre el tècnic i el creatiu, i demostrar que es pot aprendre electrònica amb tisores, cinta i ganes de passar-ho bé ✂️⚙️✨
 
-## ¿Qué encontrarás en CartroTech?
+## Què trobaràs a CartroTech?
 
-- 🛠️ **Tutoriales de Arduino** - Guías paso a paso para comenzar en el mundo de la electrónica creativa.
-- 📐 **Diseños en Cartón** - Plantillas descargables y patrones para montar tus propios proyectos.
-- 🚀 **Proyectos STEAM** - Actividades educativas que integran ciencia, tecnología, arte y mucho ingenio.
-- 📚 **Recursos útiles** - Incluyendo nuestra guía de Markdown y mucho más.
+- 🛠️ **Tutorials d'Arduino** - Guies pas a pas per començar en el món de l'electrònica creativa.
+- 📐 **Dissenys en cartró** - Plantilles descarregables i patrons per muntar els teus propis projectes.
+- 🚀 **Projectes STEAM** - Activitats educatives que integren ciència, tecnologia, art i molt d'enginy.
+- 📚 **Recursos útils** - Incloent la nostra guia de Markdown i molt més.
 
-## ¿Por qué trabajamos con cartón?
+## Per què treballem amb cartró?
 
-Porque es accesible, ecológico y versátil. El cartón permite prototipar rápido, construir con libertad y dar forma a ideas con bajo coste. Y cuando lo combinamos con sensores, motores y placas Arduino… la magia sucede.
+Perquè és accessible, ecològic i versàtil. El cartró permet prototipar ràpid, construir amb llibertat i donar forma a idees amb baix cost. I quan el combinem amb sensors, motors i plaques Arduino... la màgia succeeix.
 
-## Forma parte de la comunidad CartroTech
+## Forma part de la comunitat CartroTech
 
-Comparte tus creaciones, aprende de otros makers y descubre nuevas formas de enseñar y construir.
-¡Súmate a la revolución del cartón inteligente!
+Comparteix les teves creacions, aprèn d'altres makers i descobreix noves formes d'ensenyar i construir.
+¡Súmat a la revolució del cartró intel·ligent!
