@@ -5,6 +5,7 @@ permalink: /categorias/basic/
 ---
 
 <div class="blog-container">
+
     <h1>Articles de Arduino bàsic</h1>
 
     {% for post in site.posts %}
@@ -18,6 +19,7 @@ permalink: /categorias/basic/
                 <p class="resumen">{{ post.excerpt }}</p>
             {% endif %}
             <a href="{{ post.url }}" class="leer-mas">Llegir més →</a>
+            <hr>
         </article>
         {% endif %}
     {% endfor %}

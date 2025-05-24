@@ -18,6 +18,7 @@ permalink: /categorias/sensores/
                 <p class="resumen">{{ post.excerpt }}</p>
             {% endif %}
             <a href="{{ post.url }}" class="leer-mas">Llegir més →</a>
+            <hr>
         </article>
         {% endif %}
     {% endfor %}
