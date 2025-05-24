@@ -4,10 +4,14 @@ title: Qui som
 permalink: /about/
 ---
 
+[img1]: /assets/imatges/blog-cartrotech.png "CartroTech"
+
 ## 🚀 Cartrotech
 
 **Cartrotech** és una barreja explosiva de creativitat, cartró i electrònica 🎨📦⚡.  
 Creem prototips amb Arduino i materials reciclats que sorprenen, ensenyen i fan que l'aprenentatge sigui una autèntica aventura 🧠🤖.
+
+![CartroTech][img1]
 
 💥 **Dissenyem robots amb cartró**, experimentem amb sensors, creem dispositius interactius i ho compartim tot perquè qualsevol pugui replicar-lo, millorar-lo o simplement flipar.
 
