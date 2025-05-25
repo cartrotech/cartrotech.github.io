@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Actuadors
-permalink: /categorias/actuadores/
+permalink: /categorias/actuadors/
 ---
 
 <div class="blog-container">
     <h1>Articles de Actuadors de Arduino</h1>
 
     {% for post in site.posts %}
-        {% if post.categories contains "actuadores" or post.categories contains "actuadors" %}
+        {% if post.categories contains "actuadors" %}
         <article class="articulo">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <div class="fecha">
