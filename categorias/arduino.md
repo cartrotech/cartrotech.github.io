@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Sensors
-permalink: /categorias/sensores/
+title: Arduino
+permalink: /categorias/arduino/
 ---
 
 <div class="blog-container">
-    <h1>Articles de Sensors de Arduino</h1>
+
+    <h1>Articles de Arduino</h1>
 
     {% for post in site.posts %}
-        {% if post.categories contains "sensores" or post.categories contains "sensors" %}
+        {% if post.categories contains "arduino" %}
         <article class="articulo">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <div class="fecha">
@@ -22,4 +23,4 @@ permalink: /categorias/sensores/
         </article>
         {% endif %}
     {% endfor %}
-</div> 
+</div>
