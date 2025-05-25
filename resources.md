@@ -21,12 +21,12 @@ Una col·lecció d'eines i materials útils per ajudar-te en els teus projectes 
 
 ## Eines i Plantilles
 
-- [Calculadora de Components](https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code){:target="_blank" rel="noopener noreferrer"} - Eines per calcular resistències i altres components
+- [Calculadora de Components](https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code){:target="_blank" rel="noopener noreferrer"} - Eines per calcular resistències i altres components 🇪🇸
 
 ## Recursos Educatius
 
-- [Innova Didactic](https://content.innovadidactic.com/){:target="_blank" rel="noopener noreferrer"} - Recursos educatius per a l'aula
-- [Scratch for Arduino S4A](https://s4a.cat/index_es.html){:target="_blank" rel="noopener noreferrer"} - Programació amb Scratch
+- [Innova Didactic](https://content.innovadidactic.com/){:target="_blank" rel="noopener noreferrer"} - Recursos educatius per a l'aula 🇪🇸
+- [Scratch for Arduino S4A](https://s4a.cat/index_ca.html){:target="_blank" rel="noopener noreferrer"} - Programació amb Scratch
 
 ## Materials i Proveïdors
 

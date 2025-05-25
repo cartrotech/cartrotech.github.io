@@ -193,3 +193,13 @@ hr {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .home-image {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .home-image img {
+    max-width: 80%;
+    height: auto;
+  }
