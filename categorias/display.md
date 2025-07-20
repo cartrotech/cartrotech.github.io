@@ -7,8 +7,8 @@ permalink: /categorias/display/
 <div class="blog-container">
     <h1>Articles de Display de Arduino</h1>
 
-    {% for post in site.posts %}
-        {% if post.categories contains "display" or post.categories contains "displays" %}
+    {% assign display_posts = site.posts | where: "categories", "display" | sort: "date" %}
+    {% for post in display_posts %}
         <article class="articulo">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <div class="fecha">
@@ -20,6 +20,5 @@ permalink: /categorias/display/
             <a href="{{ post.url }}" class="leer-mas">Llegir més →</a>
             <hr>
         </article>
-        {% endif %}
     {% endfor %}
 </div> 

@@ -2,7 +2,7 @@
 title: "Guia de les Famílies de Plaques Arduino"
 description: "Explora les diferents famílies de plaques Arduino i troba la millor opció per al teu projecte."
 date: 2025-05-27 13:15:00 +0200
-categories: arduino
+categories: arduino-general
 excerpt: "En aquesta publicació, explorarem les diferents famílies de plaques Arduino i trobarem la millor opció per al teu projecte."
 tags: ["arduino", "placa", "IoT", "automatització"]
 ---
