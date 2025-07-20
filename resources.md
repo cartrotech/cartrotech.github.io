@@ -12,8 +12,6 @@ Una col·lecció d'eines i materials útils per ajudar-te en els teus projectes 
 
 - [Arduino Official Documentation](https://www.arduino.cc/){:target="_blank" rel="noopener noreferrer"} - L'origen d'aquest món 🇬🇧
 - [Guia de Markdown en Català](https://cartrotech.github.io/guia-markdown-ca){:target="_blank" rel="noopener noreferrer"} - Aprèn a formatar contingut web
-- [Tutorial d'Arduino en català](https://cartrotech.github.io/arduino-tutorial-ca){:target="_blank" rel="noopener noreferrer"} - Aprèn a programar Arduino
-- [Tutorial de Scratch en català](https://cartrotech.github.io/arduino-scratch-ca){:target="_blank" rel="noopener noreferrer"} - Aprèn a programar amb Scratch per a Arduino S4A
 
 ## Traduccions
 
