@@ -32,6 +32,8 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+
+
 body {
     font-family: system-ui, sans-serif;
     margin: 2rem auto;
@@ -193,6 +195,23 @@ hr {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+
+/* Estilos específicos para el submenú de Arduino */
+.arduino-submenu {
+  left: 100%;
+  top: 0;
+  display: none;
+  position: absolute;
+  background-color: var(--bg-secondary);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+.arduino-dropdown:hover .arduino-submenu {
+  display: block;
+}
 
   .home-image {
     text-align: center;

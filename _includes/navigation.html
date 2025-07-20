@@ -3,13 +3,20 @@
   <a href="{{ '/resources' | relative_url }}">Recursos</a>
   <a href="{{ '/about' | relative_url }}">Qui som</a>
   <div class="dropdown">
-    <a href="{{ '/categorias/arduino' | relative_url }}">Arduino</a>
+    <a href="#">Tutorials</a>
     <div class="dropdown-content">
-      <a href="{{ '/categorias/basic' | relative_url }}">Bàsic</a>
-      <a href="{{ '/categorias/sensors' | relative_url }}">Sensors</a>
-      <a href="{{ '/categorias/display' | relative_url }}">Display</a>
-      <a href="{{ '/categorias/actuadors' | relative_url }}">Actuadors</a>
+      <div class="dropdown arduino-dropdown">
+        <a href="{{ '/categorias/arduino' | relative_url }}">Arduino</a>
+        <div class= "arduino-submenu">
+          <a href="{{ '/categorias/basic' | relative_url }}">Bàsic</a>
+          <a href="{{ '/categorias/sensors' | relative_url }}">Sensors</a>
+          <a href="{{ '/categorias/display' | relative_url }}">Display</a>
+          <a href="{{ '/categorias/actuadors' | relative_url }}">Actuadors</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="{{ '/categorias/s4a' | relative_url }}">S4A</a>
+      </div>
     </div>
   </div>
-  <a href="{{ '/categorias/s4a' | relative_url }}">S4A</a>
 </nav>
