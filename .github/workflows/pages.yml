@@ -1,0 +1,38 @@
+
+name: Build and deploy Jekyll site to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'  # Versió compatible amb GitHub Pages
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: |
+          gem install jekyll -v 3.10.0  # Versió que coincideix amb GitHub Pages
+          bundle install
+
+      - name: Build with Jekyll
+        run: |
+          jekyll build --trace  # Mostra errors detallats
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./_site
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
