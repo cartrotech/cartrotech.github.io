@@ -90,6 +90,10 @@ footer {
     margin-right: 1rem;
 }
 
+.header-navigation {
+    display: flex;
+}
+
 .footer-content-left, .footer-content-center, .footer-content-right {
     flex: 1;
     margin-bottom: 2rem;
@@ -181,9 +185,10 @@ hr {
   
   .dropdown-content a {
     color: var(--text-primary);
-    padding: 2px 2px;
+    padding: 8px 16px;
     text-decoration: none;
     display: block;
+    white-space: nowrap;
   }
   
   .dropdown-content a:hover {
