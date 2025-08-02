@@ -3,7 +3,7 @@ email: cartrotech@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Projectes de prototipat en cartró amb base electrònica usant Arduino
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cartrotech.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cartrotech
 github_username:  cartrotech
 
@@ -20,6 +20,24 @@ markdown: kramdown
 author:
   name: Q. Serrano
   email: cartrotech@gmail.com
+
+# Configuraciones específicas para GitHub Pages
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Configuraciones de seguridad para GitHub Pages
+whitelist: []
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 exclude:
   - .sass-cache/
