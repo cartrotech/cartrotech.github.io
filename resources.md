@@ -4,8 +4,6 @@ title: Recursos
 permalink: /resources/
 ---
 
-[img1]
-
 <h1>Recursos per a makers</h1>
 
 Una col·lecció d'eines i materials útils per ajudar-te en els teus projectes de cartró i electrònica.
